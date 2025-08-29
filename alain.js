@@ -10,11 +10,30 @@ document.getElementById("demo2").innerHTML =
   (5 + 4);
 
 // Section 3: Simple sum example
-let a = 530, b = 2000, c = a + b;
-document.getElementById("demo1").innerHTML = c;
+let a = 530;
+let b = 2000;
+let c = a + b;
+document.getElementById("demo1").innerHTML = "They are in $= "  + c;
 
-// Section 4: Another interactive function for buttons
-document.getElementById("btn2").onclick = function() {
-  document.getElementById("demo3").innerHTML = "Hello Dolly!";
-  document.getElementById("demo4").innerHTML = "How are you?";
-};
+
+// section 4: It's a way of merging and listing different things
+
+const pi = 28 ;
+let person = "Alain Iranzi";
+let answer = 'Yes I am!';
+
+document.getElementById("demo4").innerHTML = pi + "<br>" + person + "<br>" + answer;
+
+// section 5: listing co-workers, adding and changing names
+
+// Create an Array:
+const workers = ["Sabo" , "Keza" ,  "Gulain"];
+
+// Change an element:
+workers[0] = "Kelvine";
+
+// Add an element:
+workers.push("Alain");
+
+// Display the Array:
+document.getElementById("demo5").innerHTML = workers; 
