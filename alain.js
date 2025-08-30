@@ -6,7 +6,7 @@ document.getElementById("btn1").onclick = function() {
 
 // Section 2: Show number of employees and header
 document.getElementById("demo2").innerHTML =
-  "<h3>This is the number of the last employees with their salaries for each</h3>" +
+  "<h2>This is the number of the last employees with their salaries for each</h2>" +
   (5 + 4);
 
 // Section 3: Simple sum example
@@ -27,7 +27,7 @@ document.getElementById("demo4").innerHTML = pi + "<br>" + person + "<br>" + ans
 // section 5: listing co-workers, adding and changing names
 
 // Create an Array:
-const workers = ["Sabo" , "Keza" ,  "Gulain"];
+const workers = ["Sabo" , "Keza"  , "Gulain"];
 
 // Change an element:
 workers[0] = "Kelvine";
