@@ -51,3 +51,24 @@ const man = {firstName:"Sabo", lastName:"Livine", age:19, eyeColor:"blue"};
 // Display Data from the Object:
 document.getElementById("object").innerHTML =
 man.firstName + " is " + man.age + " years old." + " Her eyes are " + man.eyeColor;
+
+
+// myFunction computes the product of a and b
+myFunction = (a, b) => a * b;
+
+let result = myFunction(4, 5);
+document.getElementById("now").innerHTML = "The average is: " + result;
+
+// Create an object:
+const clang = {
+  firstName: "Keza",
+  lastName: "Guilaine",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+document.getElementById("clang").innerHTML = "The smartest" = clang.fullName();
+
+
