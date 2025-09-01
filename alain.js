@@ -35,3 +35,19 @@ workers.push("Alain");
 
 // Display the Array:
 document.getElementById("demo5").innerHTML = workers; 
+
+
+// name and age are parameters<br>
+function greet(name, age) {
+  return "The elder is " + name + " who is " + age + " years old.";
+}
+
+document.getElementById("giant").innerHTML = greet("Alain", 28);
+
+
+// Create an Object:
+const man = {firstName:"Sabo", lastName:"Livine", age:19, eyeColor:"blue"};
+
+// Display Data from the Object:
+document.getElementById("object").innerHTML =
+man.firstName + " is " + man.age + " years old." + " Her eyes are " + man.eyeColor;
