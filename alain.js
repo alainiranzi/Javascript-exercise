@@ -5,15 +5,13 @@ document.getElementById("btn1").onclick = function() {
 };
 
 // Section 2: Show number of employees and header
-document.getElementById("demo2").innerHTML =
-  "<h2>This is the number of the last employees with their salaries for each</h2>" +
-  (5 + 4);
+document.getElementById("demo2").innerHTML = + (5 + 4);
 
 // Section 3: Simple sum example
 let a = 530;
 let b = 2000;
 let c = a + b;
-document.getElementById("demo1").innerHTML = "They are in $= "  + c;
+document.getElementById("demo1").innerHTML = " $= "  + c;
 
 
 // section 4: It's a way of merging and listing different things
@@ -27,7 +25,7 @@ document.getElementById("demo4").innerHTML = pi + "<br>" + person + "<br>" + ans
 // section 5: listing co-workers, adding and changing names
 
 // Create an Array:
-const workers = ["Sabo" , "Keza"  , "Gulain"];
+const workers = ["Sabo","Keza"  , "Gulain"];
 
 // Change an element:
 workers[0] = "Kelvine";

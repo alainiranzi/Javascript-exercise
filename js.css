@@ -1,0 +1,51 @@
+body {
+ background-color: rgb(212, 214, 190); 
+width: 100%;
+ 
+}
+h1 {
+    border: double;
+    border-color: rgb(113, 196, 230);
+    padding: 10px;
+    text-align: center;
+    background-color: salmon;
+    
+}
+h2 {
+    border: solid;
+    border-color: rgb(113, 196, 230);
+    padding: 10px;
+    text-align: center;
+    background-color: lightgreen;
+  
+}
+h2#years {
+    border: solid;
+    border-color: rgb(113, 196, 230);
+    padding: 10px;
+    text-align: center;
+    background-color: orange;
+  
+}
+h3 {
+    border: solid;
+    border-color: rgb(113, 196, 230);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(167, 167, 85);
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+button {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: lightblue;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+}
